@@ -1,0 +1,112 @@
+# IntelliJ IDEA specific
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+*.class
+
+# Build directories
+/target/
+/build/
+
+# Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+.gradle/
+gradle-app.setting
+
+# Logs
+*.log
+logs/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE cache
+*.swp
+*.swo
+*~
+
+# Application-specific
+.env
+*.jks
+*.p12
+*.crt
+*.key
+
+# Database
+*.h2.db
+*.mv.db
+
+# Temporary files
+*.tmp
+*.bak
+
+# Lombok config
+.lombok
+
+# Local overrides
+application*.yml
+application*.yaml
+application*.properties
+
+# Docker files (optional, if you use Docker in your project)
+docker-compose.override.yml
+
+# Ignore logs, compiled files, and OS files
+**/target/
+**/build/
+**/*.log
+**/*.class
+**/.DS_Store
+**/Thumbs.db
+**/*.swp
+
+# Exclude any secret configuration (optional if you have secrets)
+secrets/
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+.idea_modules
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
